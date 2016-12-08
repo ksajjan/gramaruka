@@ -1,0 +1,7 @@
+div .row {
+	margin-top: 50px
+}
+
+body > .container {
+    padding: 0px 15px 0;
+}
