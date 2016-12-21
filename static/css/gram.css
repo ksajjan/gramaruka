@@ -5,3 +5,11 @@ div .row {
 body > .container {
     padding: 0px 15px 0;
 }
+
+.navbar-default {
+	margin: 10px 20px 20px 20px ;
+}
+
+div.col-md-6 {
+	padding: 20px;
+}
