@@ -31,12 +31,24 @@
  <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 70%;
+      width: 80%;
       margin: auto;
   }
+
   #header-image {
 
   }
+
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      height: 280px;
+    }
+
+  @media (max-width: 600px) {
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      height: 125px;
+    }
+  }
+
   </style>
 <body>
 <!-- you can skip this div 
@@ -102,19 +114,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="static/img/landscape.jpg" alt="landscape.jpg" width="100%" height="225">
+        <img src="static/img/gram1.jpg" alt="gram" width="700" height="200">
       </div>
 
       <div class="item">
-        <img src="static/img/branch.jpg" alt="branch" width="636" height="225">
+        <img src="static/img/gram2.jpg" alt="branch" width="700" height="200">
       </div>
     
       <div class="item">
-        <img src="static/img/sunset.jpg" alt="sunset" width="636" height="225">
+        <img src="static/img/gram3.jpg" alt="sunset" width="700" height="200">
       </div>
 
       <div class="item">
-        <img src="static/img/scotland.jpg" alt="scotland" width="636" height="225">
+        <img src="static/img/gram4.jpg" alt="scotland" width="700" height="200">
       </div>
     </div>
 
